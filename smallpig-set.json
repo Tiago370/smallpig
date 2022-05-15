@@ -1,47 +1,35 @@
 {
-    "money_source":[
-        {
-            "name":"Banco do Brasil",
-            "current_balance":1000
-        },
-        {
-            "name":"Banco do Bradesco",
-            "current_balance":2000
-        },
-        {
-            "name":"Dinheiro da Gaveta",
-            "current_balance":350
-        }
-    ],
-    "main_folder":{
-        "folders":[
+    "name": "Wallet",
+    "folder": {
+        "name": "Main",
+        "pigs": [
             {
-                "name":"Despesas domésticas",
-                "folders":[],
-                "pigs":[]
-            },
-            {
-                "name":"Despesas de transporte",
-                "folders":[],
-                "pigs":[
-                    {
-                        "name":"Ônibus",
-                        "current_balance":100
-                    }
-                ]
+                "name": "Aluguel",
+                "balance": 0,
+                "goal": null
             }
         ],
-        "pigs":[
+        "folders": [
             {
-                "name":"Bicicleta",
-                "goal":500,
-                "current_balance":0
-            },
-            {
-                "name":"Computador",
-                "goal":3000,
-                "current_balance":0
+                "name": "Gastos Fixos",
+                "pigs": [],
+                "folders": []
             }
         ]
-    }
+    },
+    "sources": [
+        {
+            "name": "Banco do Brasil",
+            "balance": 1000
+        },
+        {
+            "name": "Banco do Bradesco",
+            "balance": 2000
+        },
+        {
+            "name": "Banco Santander",
+            "balance": 3000
+        }
+    ]
 }
+  
